@@ -1,8 +1,8 @@
 import Vet from "../models/Vet.js"
 import createJWT from "../helpers/createJWT.js";
 import createId from "../helpers/createId.js";
-import registerEmail from "../helpers/registeremail.js";
-import forgotPasswordEmail from "../helpers/forgotpasswordemail.js";
+import registerEmail from "../helpers/registerEmail.js";
+import forgotPasswordEmail from "../helpers/forgotPasswordEmail.js";
 
 const register = async (req, res) => {
 const { email, name } = req.body;
